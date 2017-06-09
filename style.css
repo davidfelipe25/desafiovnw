@@ -14,13 +14,110 @@ body{
 img{
 width: 100px;
 }
-main{
+main {
 	display:flex;
 	flex-direction:row; 
 	flex-wrap:wrap;
+	width:80%
 	
+}
+h1,h2,h3 {
+	margin:0;
 }
 section{
 	padding:15px;
 	margin: 5px;
-	background:#fff;}
+	background:#fff;
+}
+.sec1{ 
+	width:65%;
+
+}
+.sec2{
+	width:30%;
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+
+}
+.sec2 div {
+	margin:5px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-content: center;
+}
+.sec2 div img{
+	width:83px;
+
+}
+.sec2{
+	display:flex;
+	align-items:flex-start;
+}
+.sec2 div:first-child img{
+	width:100px;
+}
+
+.sec2 div p{
+	font-size:15px;
+	text-align:center;
+
+}
+.sec3{
+width: 30%;
+
+}
+.sec3  img{
+
+	width:47%;
+	margin:3px;	
+
+}
+.sec3 p{
+	font-size:15px;
+
+}
+.sec3 {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	align-items:flex-end;	
+	
+}
+.sec4{ 
+	width:65%;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.sec4 div {
+	width: 48%;
+}
+.sec4 img{
+	width:70%;
+
+}
+
+.sec4 h2{
+	font-size:16px; 
+}
+.sec4 ul li {
+	font-size:16px;
+}
+.sec4 h3{
+	font-size:15px;
+}
+.sec5 {
+	width:48%;
+}
+.sec6{
+	width:47%;
+
+}
+.sec6{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+

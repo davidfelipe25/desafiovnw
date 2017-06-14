@@ -30,7 +30,7 @@ section{
 	background:#fff;
 }
 .sec1{ 
-	width:65%;
+	width:60%;
 }
 .sec2{
 	width:30%;
@@ -46,7 +46,7 @@ section{
 	align-items:center;
 }
 .sec2 div img{
-	width:83px;
+	width:80px;
 }
 .sec2 div:first-child img{
 	width:100px;
@@ -75,7 +75,7 @@ section{
 }
 
 .sec4{ 
-	width:65%;
+	width:60%;
 	display:flex;
 	flex-wrap:wrap;
 }
@@ -83,22 +83,47 @@ section{
 	width: 48%;
 }
 .sec4 img{
-	width:70%;
+	width:60%;
 
 }
 
 .sec4 h2{
 	font-size:16px;
-	margin-bottom:15px;
-	text-align:end; 
+	margin-bottom:13px;
+	 
 }
-.sec4 ul li {
-	font-size:16px;
-	text-align:start;
+.sec4  ul li {
+	font-size:12px;
+	
 }
-.sec4 h3{
-	font-size:15px;
+.sec4 div ul li {
+	position:relative;
+	top:0px;
+	left:5px;
+	list-style:inside none;
+	padding:0%;
+	margin-top:2px;
+	font-size:13px;
+
 }
+
+.sec4 div h3{
+	padding:0%
+
+	font-size:14px;
+	margin-top:12px;
+	
+}
+.sec4 div{
+	width:46%;
+	margin:0 1%;
+}
+.sec4 div ul li:before{
+	content:"- "
+
+
+}
+
 .sec5 {
 	width:48%;
 }
@@ -114,8 +139,17 @@ section{
 
 }
 .sec7{
-	width:17%;
+	width:12%;
 }
 .sec7 h2{
 	font-size:15px;
 }
+	.se7 ul{
+	padding-left:0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.sec7 ul li:before{
+	content: ".";
+}
+

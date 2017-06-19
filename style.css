@@ -10,27 +10,33 @@ html,body{
 }
 body{
 	background:#D3D3D3;
+	font-family:arial;
 }
-/*img{
-width: 100px;
-}*/
 main {
 	display:flex;
 	flex-direction:row; 
 	flex-wrap:wrap;
 	width:80%;
 }
-
 h1,h2,h3 {
-	margin:0;
+	margin-top:0;
 }
 section{
 	padding:15px;
-	margin: 5px;
+	margin: 1%;
 	background:#fff;
+	box-shadow:7px 7px 20px #888;
 }
 .sec1{ 
-	width:60%;
+	width:66%;
+}
+.sec1 h1{
+	margin-top:13px;		
+	font-size:25px;
+}
+.sec1 p {
+	top:8px;
+	font-size:17px;
 }
 .sec2{
 	width:30%;
@@ -53,7 +59,7 @@ section{
 }
 
 .sec2 div p{
-	font-size:15px;
+	font-size:12px;
 	text-align:center;
 }
 
@@ -65,91 +71,108 @@ section{
 	align-items:flex-end;
 }
 .sec3 img{
-	width:47%;
-	margin:3px;	
+	width:48%;
+	margin:1%;	
+}
+.sec3 p{
+	font-family: "Times New Roman-italico";
+	font-size:18px;
 }
 .sec3 p:last-child{
 	text-align: right;
 	width: 100%;
-	/*font-size:14px;*/
+	font-size:15px;
+	font-family: arial;
 }
 
 .sec4{ 
-	width:60%;
+	width:66%;
 	display:flex;
 	flex-wrap:wrap;
 }
-.sec4 div {
-	width: 48%;
-}
-.sec4 img{
-	width:60%;
-
-}
-
 .sec4 h2{
 	font-size:16px;
 	margin-bottom:13px;
 	 
 }
-.sec4  ul li {
-	font-size:12px;
+.sec4 div {
+	width: 47%;
+	margin: 0 1%;
+}
+.sec4 div img{
+	width:60%;
+}
+.sec4 div h3{
+	font-size:15px;
+	margin: 0;
+	margin-top:10px;	
+}
+.sec4 div ul {
+	padding:0px;
+	margin:4px;
 	
 }
 .sec4 div ul li {
-	position:relative;
-	top:0px;
-	left:5px;
-	list-style:inside none;
-	padding:0%;
+	list-style: none;
 	margin-top:2px;
-	font-size:13px;
-
+	font-size:12px;
 }
 
-.sec4 div h3{
-	padding:0%
-
-	font-size:14px;
-	margin-top:12px;
-	
-}
-.sec4 div{
-	width:46%;
-	margin:0 1%;
-}
 .sec4 div ul li:before{
-	content:"- "
-
-
+	content:"- ";
 }
 
 .sec5 {
-	width:48%;
+	width:53%;
+}
+.sec5 h3{
+		font-size:15px;
+
+}
+.sec5 p{
+	font-size:15px;
 }
 .sec6{
 	width:29%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .sec6 h3{
 	font-size:15px;
+	width: 100%;
+	margin-bottom: 0;		
 }
 .sec6 img{
-	width:70%;
-
+	width:80%;
 }
+
 .sec7{
 	width:12%;
 }
 .sec7 h2{
 	font-size:15px;
+
 }
-	.se7 ul{
+.sec7 ul{
 	padding-left:0;
 	margin-bottom: 0;
 	list-style: none;
+	padding:0px;
+
+}
+.sec7 ul li{
+	margin-bottom:12px;
 }
 .sec7 ul li:before{
-	content: ".";
+	content: "• ";
+	
+}
+@font-face{
+	font-family: "Times New Roman-italico";
+	src: url(fonts/timesi.ttf);
+
 }
 
